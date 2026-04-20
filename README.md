@@ -49,19 +49,7 @@ The Reinhard color transformation operates through the following steps:
 Open and run the Jupyter notebook:
 ```bash
 jupyter notebook "Reinhard Color Transformation.ipynb"
-```
 
-## Push to GitHub
-
-```bash
-cd "d:\Master in Genova_And_Others_Projects\Digital Patholpgy_Projects\Reinhard_Color transformation_Project"
-git init
-git remote add origin https://github.com/behnoudshafizadeh/Reinhard_Color-transformation_Project.git
-git add .
-git commit -m "Initial commit: Reinhard color transformation project"
-git branch -M main
-git push -u origin main
-```
 
 ## License
 This project is for educational and research purposes.
