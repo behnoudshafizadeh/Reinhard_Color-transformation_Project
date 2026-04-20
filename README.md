@@ -15,9 +15,7 @@ The Reinhard color transformation operates through the following steps:
 2. **Compute statistics** — Calculate the mean and standard deviation of each LAB channel for both the source and template images.
 3. **Normalize pixels** — For each pixel in each channel:
 
-```
-normalized_pixel = (pixel - source_mean) * (template_std / source_std) + template_mean
-```
+$$\text{normalized\_pixel} = \left(\text{pixel} - \text{source\_mean}\right) \times \frac{\text{template\_std}}{\text{source\_std}} + \text{template\_mean}$$
 
 4. **Clamp values** — Ensure pixel values remain within [0, 255].
 5. **Convert back to BGR** — Transform the normalized LAB image back to BGR for saving.
